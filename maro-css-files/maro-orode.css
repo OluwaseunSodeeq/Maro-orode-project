@@ -1,0 +1,192 @@
+
+body {
+    font-family: serif;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+/* header{ container (brand)} */
+#header {
+    height: 100px;
+    padding: 10px 0;
+}
+/* heading */
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color: #861bbf;
+    text-decoration: none;
+}
+#brand{ 
+    float: left;
+}
+/* container {search-box and inputs (submit & text)}  */
+#container {
+    width: 970;
+    margin: 0 auto;
+}
+#search-box{
+    float: right;
+    background: linear-gradient(rgb(228,242,137), rgb(183,233,83) );
+    -webkit-background: linear-gradient(rgb(228,242,137),rgb(183,233,83)  );
+    -o-background: linear-gradient(rgb(228,242,137), rgb(183,233,83) );
+    -moz-background: linear-gradient(rgb(228,242,137), rgb(183,233,83) );
+    background: linear-gradient(rgb(228,242,137), rgb(183,233,83) );
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0px 20px;
+    border: 1px solid blue;
+    margin-top: 20px;
+}
+.text {
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: #e36a0c;
+    background: white url(/images/seach.png) right center no-repeat;
+    border: 1px solid #c8d03e;
+}
+.submit {
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: #a751d6;
+    font-size: 15px;
+    border: 1px solid #dcd5e1;
+    border-radius: 210298px;
+
+}
+.clear{
+    clear: both;
+}
+/* navigation(menu 'list') */
+li{
+    list-style: none;
+
+}
+#menu {
+    height: 70px;
+    background: linear-gradient(#f8f594, #d5d533);
+    padding: 7px;
+}
+#menu ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#menu ul li {
+    
+    /* float: left; */
+    padding: 0 30px;
+    height: 20px;
+    border-right: 1px solid #5d12e7;
+}
+#menu ul li:last-child{
+    border-right: none;
+
+}
+#menu ul li a {
+
+    text-decoration: none;
+    font-size: 17px;
+    color: #5d12e7;
+    line-height: 30px;
+    transition: font-size 0.5s ease;
+}
+ /* the firdt link will not change when over on.thats the essence of the active line */
+#menu ul li a:hover,
+#menu ul li a.active { 
+    font-size: 20px;
+    font-weight: bold;
+    color: #b314db;
+    
+}
+
+
+/* body(h3 and paragragh) */
+#introduction {
+    background: linear-gradient(#E5f288, #b7e952);
+    padding: 20px;margin: 10px 0 ;
+}
+#introduction h3 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: #316901;
+    font-weight: normal;
+    text-align: center;
+}
+#introduction p {
+    font-size: 40px;
+    color: #628f19;
+    text-align: justify;
+}
+/*side bars*/
+.side-bars {
+    height: 560px;
+    width: 450px;
+    border: 1px solid #baf46f;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin: 20px 30px 30px 10px;
+
+
+}
+
+.side-bars h3 {
+    color: #b314db;
+    font-size: 30px;
+}
+
+.side-bars ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #5d12e7;
+    transition: font-size 1s linear;
+    -webkit-transition: font-size:0.5s ease;
+    -mos-transition: font-size:0.5s ease;
+    o-transition: font-size:0.5s ease;
+    ms-transition: font-size:0.5s ease;
+
+}
+
+.side-bars ul li a:hover,
+.side-bars ul li a.active {
+    text-decoration: none;
+    color: #b314db;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#left-side-bar ul li {
+    padding-bottom: 8px;
+    list-style-image: url(/images/arrow\ \(2\).png);
+    padding-left: 10px;
+}
+
+#left-side-bar ul {
+    padding-top: 8px;
+}
+
+#right-side-bar ul li {
+    padding-bottom: 8px;
+    list-style-image: url(/images/tick.png);
+    padding:0 40px 10px 0;
+}
+
+#left-side-bar {
+    float: left;
+}
+
+#right-side-bar {
+    float: right;
+
+}
+.footer {
+    text-align: center;
+    height: 60px;
+    background: linear-gradient(#f6f390, #d5d533);
+    padding: 10px 30px;
+    margin-top: 10px;
+}

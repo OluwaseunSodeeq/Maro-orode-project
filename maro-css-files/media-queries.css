@@ -1,0 +1,48 @@
+@media (max-width: 500px) {
+    #container {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    #header {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    #search-box {
+        margin-right: -20px;
+    }
+    #menu {
+       height: 160px;
+    }
+    #menu ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+        /* margin-bottom: 10px; */
+    }
+    #menu ul li {
+        margin-bottom: 10px;
+        border: none;
+    }
+    #introduction h3 {
+        font-size: 40px;
+
+    }
+    #introduction p{
+        font-size: 25px;
+    }
+    .side-bars {
+        
+        width: 85%;
+    }
+    #left-side-bar {
+        margin-left: -10px;
+
+    }
+    #right-side-bar {
+        margin-right: -1px;
+
+    }
+
+}    
